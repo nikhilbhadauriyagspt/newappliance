@@ -21,7 +21,7 @@ const Footer = () => {
               <img src="/logo/logo.png" alt="Appliance Vista" className="h-12 w-auto object-contain bg-white rounded-lg p-1" />
             </div>
             <p className="text-gray-400 leading-relaxed">
-              We provide appliance repair and maintenance services for various household brands. Our goal is to provide technical support and component repair solutions to maintain your equipment's functionality.
+              Appliance Vista is your trusted partner for high-quality home appliance repair and maintenance. We provide technical support for washing machines, refrigerators, AC units, and various household brands with a focus on reliability and long-term functionality.
             </p>
           </div>
 

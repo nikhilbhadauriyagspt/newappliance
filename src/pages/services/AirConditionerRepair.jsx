@@ -29,7 +29,7 @@ const AirConditionerRepair = () => {
               <div className="absolute -bottom-8 -left-8 bg-secondary p-8 rounded-3xl shadow-2xl hidden md:block max-w-[280px]">
                 <div className="flex items-center gap-4 text-white">
                   <div className="bg-white/20 p-3 rounded-xl"><FaShieldAlt size={24} /></div>
-                  <h5 className="font-bold leading-tight">100% Guaranteed Satisfaction</h5>
+                  <h5 className="font-bold leading-tight">Quality Service Commitment</h5>
                 </div>
               </div>
             </div>
@@ -84,3 +84,4 @@ const AirConditionerRepair = () => {
 };
 
 export default AirConditionerRepair;
+

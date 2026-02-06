@@ -19,9 +19,12 @@ const About = () => {
           </div>
           <div className="w-full lg:w-1/2 px-4 lg:pl-16" data-aos="fade-left">
             <h6 className="text-primary font-bold uppercase tracking-widest text-sm mb-4 inline-block border-b-2 border-secondary pb-1">Our Organization</h6>
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-gray-900 mb-6 leading-tight">Providing Appliance Repair Solutions</h2>
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-gray-900 mb-6 leading-tight">Providing Professional Appliance Repair Solutions</h2>
+            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+              At <strong>Appliance Vista</strong>, we pride ourselves on being a leading provider of high-quality appliance repair and maintenance services. With years of hands-on experience in the industry, our mission is simple: to provide fast, reliable, and affordable technical solutions that keep your home running smoothly. 
+            </p>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-              We offer technical appliance repair services that focus on thorough diagnostics and functional repairs. Our team is trained to handle various appliance issues, aiming to provide solutions that assist in maintaining your home equipment.
+              We understand that appliances are the backbone of your daily routine. From keeping your food fresh to ensuring your clothes are clean, these machines are essential. That's why we focus on technical excellence, using advanced diagnostic tools and genuine parts to ensure every repair is performed to the highest standards. Our team of certified technicians is dedicated to extending the life of your appliances and providing you with peace of mind.
             </p>
             
             <div className="space-y-6 mb-10">

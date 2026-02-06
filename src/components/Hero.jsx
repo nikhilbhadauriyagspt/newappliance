@@ -105,7 +105,7 @@ const Hero = () => {
                     <div className="hero-element flex flex-wrap justify-center lg:justify-start items-center gap-6 lg:gap-8 text-gray-500">
                       <div className="flex items-center gap-3">
                         <FaShieldAlt className="text-secondary text-lg lg:text-xl" />
-                        <span className="text-[9px] lg:text-[10px] font-bold uppercase tracking-widest text-white/50">Service Warranty Coverage</span>
+                        <span className="text-[9px] lg:text-[10px] font-bold uppercase tracking-widest text-white/50">Service Quality Commitment</span>
                       </div>
                       <div className="hidden sm:block w-px h-4 bg-white/10"></div>
                       <div className="flex items-center gap-3">

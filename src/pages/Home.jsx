@@ -8,6 +8,8 @@ import Services from '../components/Services';
 import Projects from '../components/Projects';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
+import FAQ from '../components/FAQ';
+import Process from '../components/Process';
 
 const Home = () => {
   useEffect(() => {
@@ -34,7 +36,9 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
+      <Process />
       <Projects />
+      <FAQ />
       <Blog />
       <Contact />
     </>

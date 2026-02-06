@@ -37,7 +37,7 @@ const RefrigeratorRepair = () => {
                     <FaShieldAlt size={24} />
                   </div>
                   <div>
-                    <h5 className="font-bold leading-tight">100% Guaranteed Satisfaction</h5>
+                    <h5 className="font-bold leading-tight">Quality Service Commitment</h5>
                   </div>
                 </div>
               </div>
@@ -104,3 +104,4 @@ const RefrigeratorRepair = () => {
 };
 
 export default RefrigeratorRepair;
+

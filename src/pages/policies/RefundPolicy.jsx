@@ -32,7 +32,7 @@ const RefundPolicy = () => {
           <p>You may cancel your appointment up to 24 hours before the scheduled time without penalty. Late cancellations may incur a fee.</p>
           
           <h3>5. Contact Us</h3>
-          <p>To request a refund or discuss a billing issue, please contact our billing department at info@appliancevista.shop.</p>
+          <p>To request a refund or discuss a billing issue, please contact our billing department at appliancevista@outlook.com.</p>
         </div>
       </div>
     </div>
@@ -40,4 +40,5 @@ const RefundPolicy = () => {
 };
 
 export default RefundPolicy;
+
 

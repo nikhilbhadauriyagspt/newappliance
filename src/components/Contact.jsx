@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="font-bold mb-1">Email Address</h5>
-                    <p className="text-white/70 text-sm">info@appliancevista.shop</p>
+                    <p className="text-white/70 text-sm">appliancevista@outlook.com</p>
                   </div>
                 </div>
               </div>
@@ -144,4 +144,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

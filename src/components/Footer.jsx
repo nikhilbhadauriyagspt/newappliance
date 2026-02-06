@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary group-hover:text-white transition-colors duration-300">
                   <FaEnvelope className="text-secondary group-hover:text-white transition-colors" />
                 </div>
-                <span className="text-gray-400 text-sm mt-2">info@appliancevista.shop</span>
+                <span className="text-gray-400 text-sm mt-2">appliancevista@outlook.com</span>
               </li>
             </ul>
           </div>

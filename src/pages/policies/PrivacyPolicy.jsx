@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
           <p>We implement security measures to protect your personal information. However, no method of transmission over the internet is 100% secure.</p>
           
           <h3>5. Contact Us</h3>
-          <p>If you have questions about this Privacy Policy, please contact us at info@appliancevista.shop.</p>
+          <p>If you have questions about this Privacy Policy, please contact us at appliancevista@outlook.com.</p>
         </div>
       </div>
     </div>
@@ -40,4 +40,5 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
+
 

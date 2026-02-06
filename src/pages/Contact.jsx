@@ -70,7 +70,7 @@ const Contact = () => {
                  <div>
                     <h4 className="font-bold text-xl text-gray-900 mb-2">Email Correspondence</h4>
                     <p className="text-gray-500 mb-1">Standard Response Time: 2-4 Hours</p>
-                    <a href="mailto:info@appliancevista.shop" className="text-lg font-bold text-primary hover:text-secondary transition-colors">info@appliancevista.shop</a>
+                    <a href="mailto:appliancevista@outlook.com" className="text-lg font-bold text-primary hover:text-secondary transition-colors">appliancevista@outlook.com</a>
                  </div>
                </div>
 
@@ -164,3 +164,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

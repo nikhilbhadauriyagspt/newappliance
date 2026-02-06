@@ -37,11 +37,11 @@ const Process = () => {
         <div className="relative">
           {/* Connection line for desktop */}
           <div className="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-100 -translate-y-1/2 z-0"></div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10">
             {steps.map((step, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="text-center group"
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
@@ -51,26 +51,26 @@ const Process = () => {
                     {step.icon}
                   </div>
                 </div>
-                
+
                 <div className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 group-hover:bg-white group-hover:shadow-2xl transition-all duration-500 h-full">
-                   <div className="bg-secondary text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mx-auto mb-6 shadow-lg">
-                      {index + 1}
-                   </div>
-                   <h4 className="text-xl font-bold text-gray-900 mb-4">{step.title}</h4>
-                   <p className="text-gray-500 text-sm leading-relaxed">
-                     {step.desc}
-                   </p>
+                  <div className="bg-secondary text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mx-auto mb-6 shadow-lg">
+                    {index + 1}
+                  </div>
+                  <h4 className="text-xl font-bold text-gray-900 mb-4">{step.title}</h4>
+                  <p className="text-gray-500 text-sm leading-relaxed">
+                    {step.desc}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="mt-24 text-center" data-aos="fade-up">
-           <div className="inline-flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 md:p-3 pr-8 rounded-[2rem] md:rounded-full border border-gray-100">
-              <p className="text-gray-600 font-medium px-4">Ready to get your appliance fixed? Schedule a service with our expert team today.</p>
-              <a href="#contact" className="text-primary font-bold uppercase tracking-widest text-xs border-b-2 border-secondary pb-1 hover:text-secondary transition-colors">Book Now &rarr;</a>
-           </div>
+        <div className="mt-36 text-center" data-aos="fade-up">
+          <div className="inline-flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 md:p-3 pr-8 rounded-[2rem] md:rounded-full border border-gray-100">
+            <p className="text-gray-600 font-medium px-4">Ready to get your appliance fixed? Schedule a service with our expert team today.</p>
+            <a href="#contact" className="text-primary font-bold uppercase tracking-widest text-xs border-b-2 border-secondary pb-1 hover:text-secondary transition-colors">Book Now &rarr;</a>
+          </div>
         </div>
       </div>
     </section>

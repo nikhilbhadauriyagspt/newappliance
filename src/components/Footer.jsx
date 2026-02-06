@@ -125,10 +125,12 @@ const Footer = () => {
       <div className="bg-black/20 border-t border-white/5 py-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} Appliance Vista. All Rights Reserved.</p>
-          <div className="flex gap-6 text-sm">
+          <div className="flex gap-6 text-sm flex-wrap">
             <Link to="/privacy-policy" className="text-gray-500 hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="text-gray-500 hover:text-white transition-colors">Terms of Service</Link>
             <Link to="/refund-policy" className="text-gray-500 hover:text-white transition-colors">Refund Policy</Link>
+            <Link to="/cookie-policy" className="text-gray-500 hover:text-white transition-colors">Cookie Policy</Link>
+            <Link to="/disclaimer" className="text-gray-500 hover:text-white transition-colors">Disclaimer</Link>
           </div>
         </div>
       </div>

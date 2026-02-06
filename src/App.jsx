@@ -25,6 +25,8 @@ import KitchenChimneyRepair from './pages/services/KitchenChimneyRepair';
 import PrivacyPolicy from './pages/policies/PrivacyPolicy';
 import TermsOfService from './pages/policies/TermsOfService';
 import RefundPolicy from './pages/policies/RefundPolicy';
+import CookiePolicy from './pages/policies/CookiePolicy';
+import Disclaimer from './pages/policies/Disclaimer';
 import { BookingProvider } from './context/BookingContext';
 import BookingModal from './components/modals/BookingModal';
 import './App.css';
@@ -45,6 +47,8 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/refund-policy" element={<RefundPolicy />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="/service/washing-machine" element={<WashingMachineRepair />} />
             <Route path="/service/refrigerator" element={<RefrigeratorRepair />} />
             <Route path="/service/dishwasher" element={<DishwasherRepair />} />

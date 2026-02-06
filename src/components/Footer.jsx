@@ -10,11 +10,7 @@ const Footer = () => {
           {/* Company Bio */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <img src="/logo/logo.png" alt="Appliance Vista" className="h-10 w-auto object-contain bg-white rounded-lg p-1" />
-              <div className="font-logo font-extrabold text-3xl tracking-tighter leading-none">
-                <span className="text-white">Appliance</span>
-                <span className="text-secondary"> Vista</span>
-              </div>
+              <img src="/logo/logo.png" alt="Appliance Vista" className="h-12 w-auto object-contain bg-white rounded-lg p-1" />
             </div>
             <p className="text-gray-400 leading-relaxed">
               We provide appliance repair and maintenance services for various household brands. Our goal is to provide technical support and component repair solutions to maintain your equipment's functionality.

@@ -27,6 +27,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - Appliance Vista</title>
         <meta name="description" content="Get in touch with us for professional appliance maintenance and repair services." />
+        <link rel="canonical" href="https://www.appliancevista.shop/contact" />
       </Helmet>
 
       <div className="relative bg-primary py-32 overflow-hidden">

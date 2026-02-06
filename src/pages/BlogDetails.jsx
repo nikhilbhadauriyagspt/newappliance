@@ -33,6 +33,7 @@ const BlogDetails = () => {
       <Helmet>
         <title>{blog.title} - Appliance Vista Blog</title>
         <meta name="description" content={blog.shortDesc} />
+        <link rel="canonical" href={`https://www.appliancevista.shop/blog/${blog.id}`} />
       </Helmet>
       
       <div className="container mx-auto px-4 max-w-4xl">

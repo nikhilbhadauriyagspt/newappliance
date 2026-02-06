@@ -20,6 +20,7 @@ const Projects = () => {
       <Helmet>
         <title>Our Projects - Appliance Vista</title>
         <meta name="description" content="View our portfolio of successful appliance repairs and maintenance projects." />
+        <link rel="canonical" href="https://www.appliancevista.shop/projects" />
       </Helmet>
 
       <div className="relative bg-gray-900 py-32 overflow-hidden">

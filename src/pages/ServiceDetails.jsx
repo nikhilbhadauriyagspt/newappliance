@@ -35,6 +35,7 @@ const ServiceDetails = () => {
       <Helmet>
         <title>{service.title} - Appliance Vista Services</title>
         <meta name="description" content={service.shortDesc} />
+        <link rel="canonical" href={`https://www.appliancevista.shop/service/${service.slug}`} />
         <meta property="og:title" content={`${service.title} - Professional Repair`} />
         <meta property="og:description" content={service.longDesc} />
         <meta property="og:image" content={service.image} />

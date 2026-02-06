@@ -10,6 +10,7 @@ const About = () => {
       <Helmet>
         <title>About Us - Appliance Vista</title>
         <meta name="description" content="Learn about Appliance Vista, our professional approach to appliance maintenance and repair services." />
+        <link rel="canonical" href="https://www.appliancevista.shop/about" />
       </Helmet>
 
       <div className="relative bg-primary py-32 overflow-hidden">

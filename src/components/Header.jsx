@@ -59,15 +59,8 @@ const Header = () => {
             <img 
               src="/logo/logo.png" 
               alt="Appliance Vista Logo" 
-              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+              className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             />
-            <div className="flex flex-col">
-              <span className={`font-logo font-black text-2xl tracking-tighter leading-none transition-colors duration-300 ${
-                scrolled || !isHomePage ? 'text-gray-900' : 'text-white'
-              }`}>
-                Appliance <span className="text-secondary">Vista</span>
-              </span>
-            </div>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

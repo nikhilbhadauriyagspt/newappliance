@@ -13,7 +13,8 @@ const Blog = () => {
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>Our Blog - Appliance Vista</title>
-        <meta name="description" content="Tips, tricks, and guides for maintaining your home appliances." />
+        <meta name="description" content="Read our latest articles about appliance maintenance, repair tips, and industry news." />
+        <link rel="canonical" href="https://www.appliancevista.shop/blog" />
       </Helmet>
 
       <div className="relative bg-white py-32 overflow-hidden border-b border-gray-100">

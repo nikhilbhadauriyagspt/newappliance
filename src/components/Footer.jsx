@@ -100,14 +100,14 @@ const Footer = () => {
             ) : (
               <form onSubmit={handleSubscribe} className="space-y-3">
                 <div className="relative group">
-                  <input 
+                  <input
                     required
-                    type="email" 
-                    placeholder="Your Email Address" 
+                    type="email"
+                    placeholder="Your Email Address"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 outline-none focus:border-secondary focus:ring-4 focus:ring-secondary/10 transition-all text-sm"
                   />
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     className="absolute right-2 top-2 bottom-2 bg-secondary hover:bg-orange-600 text-white w-12 rounded-xl flex items-center justify-center transition-all hover:scale-105"
                   >
                     <FaPaperPlane size={14} />
@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Copyright Bar */}
       <div className="bg-black/20 border-t border-white/5 py-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
@@ -129,7 +129,6 @@ const Footer = () => {
             <Link to="/terms-of-service" className="text-gray-500 hover:text-white transition-colors">Terms of Service</Link>
             <Link to="/refund-policy" className="text-gray-500 hover:text-white transition-colors">Refund Policy</Link>
             <Link to="/cookie-policy" className="text-gray-500 hover:text-white transition-colors">Cookie Policy</Link>
-            <Link to="/disclaimer" className="text-gray-500 hover:text-white transition-colors">Disclaimer</Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-﻿import React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const RefundPolicy = () => {
@@ -9,30 +9,80 @@ const RefundPolicy = () => {
   return (
     <div className="bg-white min-h-screen pt-32 pb-24">
       <Helmet>
-        <title>Refund Policy - Appliance Vista</title>
-        <meta name="description" content="Refund Policy for Appliance Vista." />
+        <title>Return Policy - Appliance Vista</title>
+        <meta name="description" content="Official Return Policy for Appliance Vista. Details on returns, process, and refunds." />
+        <link rel="canonical" href="https://www.appliancevista.shop/refund-policy" />
       </Helmet>
       
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-4xl font-heading font-bold text-gray-900 mb-8">Refund Policy</h1>
+        <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4 uppercase">Return Policy</h1>
+        <p className="text-gray-500 mb-12 italic">Last updated February 06, 2026</p>
         
-        <div className="prose prose-lg text-gray-600">
-          <p>Effective Date: January 1, 2026</p>
-          
-          <h3>1. Service Satisfaction</h3>
-          <p>We strive for 100% customer satisfaction. If you are not satisfied with our service, please contact us within 24 hours.</p>
-          
-          <h3>2. Refund Eligibility</h3>
-          <p>Refunds are considered on a case-by-case basis. Labor charges are generally non-refundable once the work has been performed.</p>
-          
-          <h3>3. Parts Warranty</h3>
-          <p>Defective parts will be replaced under warranty. Refunds for parts are subject to the manufacturer's return policy.</p>
-          
-          <h3>4. Cancellation Policy</h3>
-          <p>You may cancel your appointment up to 24 hours before the scheduled time without penalty. Late cancellations may incur a fee.</p>
-          
-          <h3>5. Contact Us</h3>
-          <p>To request a refund or discuss a billing issue, please contact our billing department at appliancevista@outlook.com.</p>
+        <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-8">
+          <section>
+            <p>
+              Thank you for your purchase. We hope you are happy with your purchase. However, if you 
+              are not completely satisfied with your purchase for any reason, you may return it to us for a 
+              refund only. Please see below for more information on our return policy.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">RETURNS</h2>
+            <p>
+              All returns must be postmarked within seven (7) days of the purchase date. All returned 
+              items must be in new and unused condition, with all original tags and labels attached.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">RETURN PROCESS</h2>
+            <p>
+              To return an item, please email customer service at <a href="mailto:appliancevista@outlook.com" className="text-primary font-bold">appliancevista@outlook.com</a> to obtain 
+              an Return Merchandise Authorization (RMA) number. After receiving an RMA number, place 
+              the item securely in its original packaging and include your proof of purchase, then mail your 
+              return to the following address:
+            </p>
+            <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-6 leading-relaxed font-bold">
+              Appliance Vista<br />
+              Attn: Returns<br />
+              RMA #<br />
+              Grandview<br />
+              Glendale, CA 91201<br />
+              United States
+            </address>
+            <p className="mt-6">Return shipping charges will be paid or reimbursed by us.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">REFUNDS</h2>
+            <p>
+              After receiving your return and inspecting the condition of your item, we will process your 
+              return. Please allow at least seven (7) days from the receipt of your item to process your 
+              return. Refunds may take 1-2 billing cycles to appear on your credit card statement, 
+              depending on your credit card company. We will notify you by email when your return has 
+              been processed.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">EXCEPTIONS</h2>
+            <p>
+              For defective or damaged products, please contact us at the contact details below to arrange 
+              a refund or exchange.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">QUESTIONS</h2>
+            <p>
+              If you have any questions concerning our return policy, please contact us at:
+            </p>
+            <div className="bg-primary text-white p-8 rounded-2xl shadow-xl mt-4">
+              <p className="font-bold text-xl mb-2">+1 (234) 567-890</p>
+              <a href="mailto:appliancevista@outlook.com" className="text-secondary font-bold text-lg hover:underline">appliancevista@outlook.com</a>
+            </div>
+          </section>
         </div>
       </div>
     </div>
@@ -40,5 +90,3 @@ const RefundPolicy = () => {
 };
 
 export default RefundPolicy;
-
-

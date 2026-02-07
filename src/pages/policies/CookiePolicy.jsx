@@ -130,7 +130,7 @@ const CookiePolicy = () => {
               Glendale, CA 91201<br />
               United States<br />
               Email: <a href="mailto:appliancevista@outlook.com" className="text-primary">appliancevista@outlook.com</a><br />
-              Phone: +1 (234) 567-890
+              Phone: +1 (530) 554-4817
             </address>
           </section>
         </div>

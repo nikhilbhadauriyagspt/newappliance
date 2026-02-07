@@ -88,7 +88,7 @@ const BlogDetails = () => {
               Contact Our Experts
             </Link>
             <a 
-              href="tel:+1234567890" 
+              href="tel:+15305544817" 
               className="bg-white border border-gray-200 text-gray-700 px-10 py-5 rounded-2xl font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-all shadow-sm"
             >
               Call Us Now

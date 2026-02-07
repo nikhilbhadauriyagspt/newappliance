@@ -77,7 +77,7 @@ const FAQ = () => {
            <h3 className="text-2xl md:text-3xl font-bold mb-4">Still have questions?</h3>
            <p className="text-white/70 mb-8 max-w-lg mx-auto">Our customer support team is available 24/7 to assist you with any specific queries you might have about your appliance.</p>
            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="tel:+1234567890" className="bg-secondary hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all shadow-lg">Call Us Now</a>
+              <a href="tel:+15305544817" className="bg-secondary hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all shadow-lg">Call Us Now</a>
               <a href="#contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all">Contact Form</a>
            </div>
         </div>

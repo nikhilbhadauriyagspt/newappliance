@@ -71,7 +71,7 @@ const Footer = () => {
                   <FaPhoneAlt className="text-secondary group-hover:text-white transition-colors" />
                 </div>
                 <div className="flex flex-col gap-1 mt-1">
-                  <span className="text-gray-400 text-sm">+1 234 567 890</span>
+                  <span className="text-gray-400 text-sm">+1 (530) 554-4817</span>
                 </div>
               </li>
               <li className="flex items-start gap-4 group">

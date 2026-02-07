@@ -38,7 +38,7 @@ const TermsOfService = () => {
               effective servicing.
             </p>
             <p>
-              You can contact us by phone at +1 (234) 567-890, email at <a href="mailto:appliancevista@outlook.com" className="text-primary">appliancevista@outlook.com</a>, or by 
+              You can contact us by phone at +1 (530) 554-4817, email at <a href="mailto:appliancevista@outlook.com" className="text-primary">appliancevista@outlook.com</a>, or by 
               mail to Grandview, Glendale, CA 91201, United States.
             </p>
             <p>
@@ -279,7 +279,7 @@ const TermsOfService = () => {
               Grandview<br />
               Glendale, CA 91201<br />
               United States<br />
-              Phone: +1 (234) 567-890<br />
+              Phone: +1 (530) 554-4817<br />
               <a href="mailto:appliancevista@outlook.com" className="text-primary">appliancevista@outlook.com</a>
             </address>
           </section>

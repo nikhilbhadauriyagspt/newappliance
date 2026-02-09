@@ -13,8 +13,8 @@ const TelevisionRepair = () => {
   return (
     <div className="bg-white min-h-screen pt-32 pb-24">
       <Helmet>
-        <title>Television Repair - Appliance Vista Services</title>
-        <meta name="description" content="Crystal clear picture and sound restoration for your LED, LCD, or OLED TV." />
+        <title>General Repair Services - Appliance Vista Services</title>
+        <meta name="description" content="Reliable performance and full functionality restored with expert care for all your appliances." />
       </Helmet>
       
       <div className="container mx-auto px-4">
@@ -37,15 +37,20 @@ const TelevisionRepair = () => {
 
           <div className="w-full lg:w-1/2">
             <h6 className="text-secondary font-bold uppercase tracking-widest text-sm mb-4">Our Specialization</h6>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-gray-900 mb-8 leading-tight">Television Repair</h1>
-            <p className="text-xl text-primary font-medium mb-6 leading-relaxed">Crystal clear picture and sound restoration for your LED, LCD, or OLED TV.</p>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-gray-900 mb-8 leading-tight">General Repair Services</h1>
+            <p className="text-xl text-primary font-medium mb-6 leading-relaxed">Reliable performance and full functionality restored with expert care.</p>
             <div className="prose prose-lg text-gray-500 mb-10 max-w-none">
-              <p>Experience the best entertainment with a fully functional TV. We repair screen issues, sound problems, and connectivity failures for all types of televisions including Smart TVs, LED, LCD, and OLED models.</p>
+              <p>Experience peace of mind with systems that work the way they should. We diagnose and repair performance issues, functional failures, and connectivity problems across a wide range of equipment, ensuring dependable operation and long-lasting results.</p>
             </div>
             <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100 mb-10">
               <h5 className="font-bold text-xl text-gray-900 mb-6 flex items-center gap-3"><FaTools className="text-secondary" /> Key Features of This Service:</h5>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {["Screen backlight repair", "Power board replacement", "Audio system troubleshooting", "HDMI port repair"].map((feature, index) => (
+                {[
+                  "Comprehensive Diagnostics",
+                  "Skilled Repair Specialists",
+                  "Fast & Efficient Service",
+                  "Quality Parts & Lasting Results"
+                ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3 text-gray-700 font-medium">
                     <FaCheckCircle className="text-secondary flex-shrink-0" />
                     <span>{feature}</span>

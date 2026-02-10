@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -21,54 +21,72 @@ import OvenStoveRepair from './pages/services/OvenStoveRepair';
 import WaterPurifierRepair from './pages/services/WaterPurifierRepair';
 import ClothesDryerRepair from './pages/services/ClothesDryerRepair';
 import KitchenChimneyRepair from './pages/services/KitchenChimneyRepair';
+import BookAppointmentPage from './pages/services/BookAppointmentPage';
+import BookAppointmentMain from './pages/services/BookAppointmenttvvvmain';
 import PrivacyPolicy from './pages/policies/PrivacyPolicy';
 import TermsOfService from './pages/policies/TermsOfService';
 import RefundPolicy from './pages/policies/RefundPolicy';
 import CookiePolicy from './pages/policies/CookiePolicy';
 import Disclaimer from './pages/policies/Disclaimer';
 import { BookingProvider } from './context/BookingContext';
+import { SettingsProvider } from './context/SettingsContext';
 import BookingModal from './components/modals/BookingModal';
 import './App.css';
 
+const AppContent = () => {
+  const location = useLocation();
+  const hideHeaderFooter = ['/service/book-appointment', '/service/television'].includes(location.pathname);
+
+  return (
+    <div className="App overflow-x-hidden">
+      {!hideHeaderFooter && <Header />}
+      <BookingModal />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
+        <Route path="/cookie-policy" element={<CookiePolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/service/washing-machine" element={<WashingMachineRepair />} />
+        <Route path="/service/refrigerator" element={<RefrigeratorRepair />} />
+        <Route path="/service/dishwasher" element={<DishwasherRepair />} />
+        <Route path="/service/coffee-maker" element={<CoffeeMakerRepair />} />
+        <Route path="/service/other-appliances" element={<OtherAppliances />} />
+        <Route path="/service/air-conditioner" element={<AirConditionerRepair />} />
+        <Route path="/service/microwave-oven" element={<MicrowaveOvenRepair />} />
+        <Route path="/service/oven-stove" element={<OvenStoveRepair />} />
+        <Route path="/service/water-purifier" element={<WaterPurifierRepair />} />
+        <Route path="/service/clothes-dryer" element={<ClothesDryerRepair />} />
+        <Route path="/service/kitchen-chimney" element={<KitchenChimneyRepair />} />
+        
+        {/* Special landing pages without standard header/footer */}
+        <Route path="/service/television" element={<BookAppointmentMain />} />
+        <Route path="/service/book-appointment" element={<BookAppointmentPage />} />
+        
+        {/* Catch-all for other services */}
+        <Route path="/service/:id" element={<ServiceDetails />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+      </Routes>
+      {!hideHeaderFooter && <Footer />}
+    </div>
+  );
+};
+
 function App() {
   return (
-    <BookingProvider>
-      <Router>
-        <div className="App overflow-x-hidden">
-          <Header />
-          <BookingModal />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/terms-of-service" element={<TermsOfService />} />
-            <Route path="/refund-policy" element={<RefundPolicy />} />
-            <Route path="/cookie-policy" element={<CookiePolicy />} />
-            <Route path="/disclaimer" element={<Disclaimer />} />
-            <Route path="/service/washing-machine" element={<WashingMachineRepair />} />
-            <Route path="/service/refrigerator" element={<RefrigeratorRepair />} />
-            <Route path="/service/dishwasher" element={<DishwasherRepair />} />
-            <Route path="/service/television" element={<TelevisionRepair />} />
-            <Route path="/service/coffee-maker" element={<CoffeeMakerRepair />} />
-            <Route path="/service/other-appliances" element={<OtherAppliances />} />
-            <Route path="/service/air-conditioner" element={<AirConditionerRepair />} />
-            <Route path="/service/microwave-oven" element={<MicrowaveOvenRepair />} />
-            <Route path="/service/oven-stove" element={<OvenStoveRepair />} />
-            <Route path="/service/water-purifier" element={<WaterPurifierRepair />} />
-            <Route path="/service/clothes-dryer" element={<ClothesDryerRepair />} />
-            <Route path="/service/kitchen-chimney" element={<KitchenChimneyRepair />} />
-            <Route path="/service/:id" element={<ServiceDetails />} />
-            <Route path="/blog/:id" element={<BlogDetails />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-    </BookingProvider>
+    <SettingsProvider>
+      <BookingProvider>
+        <Router>
+          <AppContent />
+        </Router>
+      </BookingProvider>
+    </SettingsProvider>
   );
 }
-
 
 export default App;

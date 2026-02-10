@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 import { FaWrench, FaShieldAlt, FaClock, FaCheckCircle, FaTools, FaSnowflake, FaPlug } from 'react-icons/fa';
 import { useBooking } from '../context/BookingContext';
 
@@ -94,12 +95,9 @@ const Hero = () => {
                     </p>
 
                     <div className="hero-element flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-8 lg:mb-12">
-                      <button onClick={() => openBookingModal()} className="w-full sm:w-auto px-6 py-3 bg-secondary text-white font-bold uppercase tracking-wider text-[11px] lg:text-sm rounded-xl hover:bg-orange-600 transition-all flex items-center justify-center gap-2 shadow-xl">
+                      <Link to="/service/television" className="w-full sm:w-auto px-8 py-4 bg-secondary text-white font-bold uppercase tracking-wider text-[11px] lg:text-sm rounded-xl hover:bg-orange-600 transition-all flex items-center justify-center gap-2 shadow-xl">
                          <FaWrench /> Request Service
-                      </button>
-                      <a href="#services" className="w-full sm:w-auto px-6 py-3 bg-white/5 backdrop-blur-sm border border-white/10 text-white font-bold uppercase tracking-wider text-[11px] lg:text-sm rounded-xl hover:bg-white/10 transition-all flex items-center justify-center">
-                        View Solutions
-                      </a>
+                      </Link>
                     </div>
 
                     <div className="hero-element flex flex-wrap justify-center lg:justify-start items-center gap-6 lg:gap-8 text-gray-500">

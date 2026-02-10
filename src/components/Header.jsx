@@ -107,7 +107,7 @@ const Header = () => {
               <div className="w-9 h-9 rounded-full bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20"><FaPhoneAlt size={14} /></div>
               <div>
                 <p className={`text-[8px] font-black uppercase tracking-widest ${scrolled || !isHomePage ? 'opacity-40' : 'opacity-60'}`}>Call Now</p>
-                <p className="text-sm font-black">+1 (530) 554-4817</p>
+                <p className="text-sm font-black">+1-402-508-9991</p>
               </div>
             </div>
             <button
@@ -166,11 +166,11 @@ const Header = () => {
 
           <div className="mt-auto pt-10">
             <a
-              href="tel:+15305544817"
+              href="tel:+14025089991"
               className="flex items-center justify-center gap-3 text-white mb-8 bg-white/5 py-4 rounded-xl border border-white/10"
             >
               <FaPhoneAlt className="text-secondary" />
-              <span className="font-bold">+1 (530) 554-4817</span>
+              <span className="font-bold">+1-402-508-9991</span>
             </a>
             <button
               onClick={() => {

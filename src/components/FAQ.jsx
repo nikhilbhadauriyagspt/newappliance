@@ -46,13 +46,13 @@ const FAQ = () => {
 
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden transition-all duration-300"
               data-aos="fade-up"
               data-aos-delay={index * 50}
             >
-              <button 
+              <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
               >
@@ -62,7 +62,7 @@ const FAQ = () => {
                 </div>
                 {activeIndex === index ? <FaChevronUp className="text-primary" /> : <FaChevronDown className="text-gray-400" />}
               </button>
-              
+
               <div className={`transition-all duration-300 ease-in-out ${activeIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}>
                 <div className="p-6 pt-0 text-gray-600 leading-relaxed border-t border-gray-50">
                   {faq.answer}
@@ -73,13 +73,13 @@ const FAQ = () => {
         </div>
 
         <div className="mt-16 text-center bg-primary rounded-[2.5rem] p-12 text-white shadow-2xl relative overflow-hidden" data-aos="zoom-in">
-           <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full translate-x-16 -translate-y-16"></div>
-           <h3 className="text-2xl md:text-3xl font-bold mb-4">Still have questions?</h3>
-           <p className="text-white/70 mb-8 max-w-lg mx-auto">Our customer support team is available 24/7 to assist you with any specific queries you might have about your appliance.</p>
-           <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="tel:+15305544817" className="bg-secondary hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all shadow-lg">Call Us Now</a>
-              <a href="#contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all">Contact Form</a>
-           </div>
+          <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full translate-x-16 -translate-y-16"></div>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">Still have questions?</h3>
+          <p className="text-white/70 mb-8 max-w-lg mx-auto">Our customer support team is available 24/7 to assist you with any specific queries you might have about your appliance.</p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="tel:+14025089991" className="bg-secondary hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all shadow-lg">Call Us Now</a>
+            <a href="#contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-xl font-bold uppercase tracking-widest transition-all">Contact Form</a>
+          </div>
         </div>
       </div>
     </section>
